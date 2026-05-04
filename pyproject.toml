@@ -1,7 +1,7 @@
 [project]
 name = "claude-foundations"
 version = "0.1.0"
-description = "Add your description here"
+description = "Claude foundations 5 projects "
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=0.97.0",
@@ -25,3 +25,4 @@ ignore = []
 [tool.pytest.ini_options]
 testpaths = ["tests", "*/tests"]
 python_files = "test_*.py"
+pythonpath = ["Project-1-RAG-Knowledge-Assistant"]
