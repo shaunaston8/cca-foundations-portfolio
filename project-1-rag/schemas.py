@@ -3,6 +3,7 @@ from __future__ import annotations
 from enum import Enum
 from pydantic import BaseModel, Field, model_validator
 
+## Defines the model schemas for RAG process, including citation details and response to RAG request
 
 class ConfidenceLevel(str, Enum):
     HIGH = "high"        # Answer is directly and explicitly supported by retrieved chunks

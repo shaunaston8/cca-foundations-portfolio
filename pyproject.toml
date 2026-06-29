@@ -5,7 +5,10 @@ description = "Claude foundations 5 projects "
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=0.97.0",
+    "chromadb>=1.5.9",
     "pydantic>=2.13.3",
+    "pymupdf4llm>=1.28.0",
+    "pypdf>=6.14.2",
     "python-dotenv>=1.2.2",
 ]
 
